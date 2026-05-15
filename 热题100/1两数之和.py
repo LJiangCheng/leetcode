@@ -15,6 +15,7 @@ class Solution:
                 return [tmpMap[m], i]
             else:
                 tmpMap[n] = i
+        return []
 
 
 ret = Solution().twoSum([2, 7, 11, 15], 18)
